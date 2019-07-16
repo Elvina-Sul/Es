@@ -1,4 +1,0 @@
-import pandas
-travel_df = pandas.read_excel('./cities.xlsx')
-cities = travel_df.to_dict('records')
-cities[0]
